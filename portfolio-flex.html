@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio :: Flexbox</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Lora:wght@400;500;700&display=swap"
+rel="stylesheet">
+<style>
+	h1 {
+		font: 48pt/1.4em 'Cinzel Decorative';
+		text-align: center;
+		text-shadow: 2px 3px 6px rgba(156,213,231,1.00);
+		color: 
+	} div {
+		width: 768px;
+		margin: 0 auto;
+		border: 1px dashed gray;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: flex-start;
+	} figure {
+		width: 200px;
+		margin: 12px;
+	} img {
+		width: 200px;
+	} figcaption {
+		font: italic 12pt/1.4em Lora;
+		text-align: center;
+	} table {
+		border-collapse: collapse;
+		margin: 72px auto;
+		border: 1px solid gray;
+		background: rgba(156,213,231,0.25);
+		font: 14pt/1.4em Lora;
+	} td, th {
+		padding: 6px 18px;
+	} tr:nth-child(odd) {
+		background: rgba(156,213,231,0.20);
+	} 
+</style>
+</head>
+
+<body>
+	<h1>Portfolio</h1>
+	<div>
+		<figure>
+		<a href="artwork1.jpg">
+		<img src="thumb_artwork1.jpg" />
+		</a>
+		<figcaption>Caption</figcaption>
+		</figure>
+		
+		<figure>
+		<a href="artwork2.jpg">
+		<img src="thumb_artwork2.jpg" />
+		</a>
+		<figcaption>Caption</figcaption>
+		</figure>
+		
+		<figure>
+		<a href="artwork3.jpg">
+		<img src="thumb_artwork3.jpg" />
+		</a>
+		<figcaption>Caption</figcaption>
+		</figure>
+	</div>
+	<table>
+		<tr>
+			<th>Title</th>
+			<th>Medium</th>
+			<th>Year</th>
+		</tr>
+		<tr>
+			<td>Title 1</td>
+			<td>medium</td>
+			<td>year</td>
+		</tr>
+		<tr>
+			<td>Title 2</td>
+			<td>medium</td>
+			<td>year</td>
+		</tr>
+		<tr>
+			<td>Title 3</td>
+			<td>medium</td>
+			<td>year</td>
+		</tr>
+</body>
+</html>
